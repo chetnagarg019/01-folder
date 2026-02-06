@@ -12,7 +12,7 @@ const Card = ({ company, title, type, salary, location }) => {
         {type.map((tag, index) => (
           <span
             key={index}
-            className="text-xs bg-gray-100 px-2 py-1 rounded-md"
+            className="text-xs bg-gray-100 px-2 py-1 rounded-md "
           >
             {tag}
           </span>
